@@ -11,6 +11,20 @@ import java.util.Scanner;
 public class Edad {
     public static String evaluar(int dia, int mes, int anno) {
         // TODO: Coloca aquí el código del ejercicio 6: Edad
+        LocalDate currentDate = LocalDate.now();
+        int day = currentDate.getDayOfMonth();
+        int m = currentDate.getMonthValue();
+        int ww = currentDate.getYear();
+        int añ =ww - anno;
+        System.out.println(añ);
+        
+        if (m < mes || (m == mes && day < dia)) {
+            añ=añ-1;
+        }
+        System.out.println("Usted tiene " + añ + " años");
+        
+        
+        
         return "";
     }
     
