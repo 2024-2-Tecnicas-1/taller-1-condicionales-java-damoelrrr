@@ -2,10 +2,6 @@ package ejercicios;
 
 import java.util.Scanner;
 
-/**
- *
- * @author danielsanchez
- */
 public class SetDeTenis {
     public static String evaluar(int numVictoriasA, int numVictoriasB) {
         // TODO: Coloca aquí el código del ejercicio 1: Set de tenis
