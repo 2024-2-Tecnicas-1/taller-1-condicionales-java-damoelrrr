@@ -1,15 +1,29 @@
-import java.util.Arrays;
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
+/**
+ *
+ * @author danielsanchez
+ */
 public class Ordenamiento {
+
     public static String evaluar(int numero1, int numero2, int numero3, int numero4) {
-        // TODO: Coloca aquí el código del ejercicio 5: Ordenamiento
-        int[] numeros ={numero1 , numero2 , numero3 ,numero4};
+        // Crear y llenar la lista con los números
+        List<Integer> numeros = new ArrayList<>();
+        numeros.add(numero1);
+        numeros.add(numero2);
+        numeros.add(numero3);
+        numeros.add(numero4);
+
         
-        Arrays.sort(numeros);
+        Collections.sort(numeros);
+
         
-        
-        return Arrays.toString(numeros);
+        return numeros.toString();
     }
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
