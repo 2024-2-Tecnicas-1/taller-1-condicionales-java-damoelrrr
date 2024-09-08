@@ -3,13 +3,9 @@ package ejercicios;
 
 import java.util.Scanner;
 
-/**
- *
- * @author danielsanchez
- */
 public class Triangulo {
     public static String evaluar(double a, double b, double c) {
-        // TODO: Coloca aquí el código del ejercicio 7: Triángulos
+        
         if (a + b <= c || a + c <= b || b + c <= a) {
             System.out.println("No es un triángulo válido");
         }else{
