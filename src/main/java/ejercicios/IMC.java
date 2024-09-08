@@ -1,7 +1,4 @@
 
-package ejercicios;
-
-import static ejercicios.SetDeTenis.evaluar;
 import java.util.Scanner;
 
 public class IMC {
@@ -22,8 +19,7 @@ public class IMC {
         }
 
     }
-        return "";
-    }
+        
     
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
