@@ -1,8 +1,4 @@
-package AnnosBisiestos;
 
-import java.util.Scanner;
-
-public class  AnnosBisiestos {
 
     public static String evaluar(int anno) {
         
@@ -35,4 +31,4 @@ public class  AnnosBisiestos {
         String respuesta = evaluar(anno);
         System.out.println(respuesta);
     }
-}
+
