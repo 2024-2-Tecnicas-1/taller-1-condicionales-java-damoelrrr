@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Edad {
     public static String evaluar(int dia, int mes, int anno) {
-        // TODO: Coloca aquí el código del ejercicio 6: Edad
+        
         LocalDate currentDate = LocalDate.now();
         int day = currentDate.getDayOfMonth();
         int m = currentDate.getMonthValue();
