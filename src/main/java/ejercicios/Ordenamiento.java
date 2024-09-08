@@ -4,10 +4,6 @@ package ejercicios;
 
 import java.util.Scanner;
 
-/**
- *
- * @author danielsanchez
- */
 public class Ordenamiento {
     public static String evaluar(int numero1, int numero2, int numero3, int numero4) {
         // TODO: Coloca aquí el código del ejercicio 5: Ordenamiento
