@@ -3,11 +3,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-/**
- *
- * @author danielsanchez
- */
-public class Division {
+public class Division.java {
     public static String evaluar(int dividendo, int divisor) {
         
         int cociente = dividendo / divisor;
