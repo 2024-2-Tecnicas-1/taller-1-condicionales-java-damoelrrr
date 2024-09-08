@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class Division {
     public static String evaluar(int dividendo, int divisor) {
-        // TODO: Coloca aquí el código del ejercicio 3: Division
+        
         int cociente = dividendo / divisor;
         int residuo = dividendo % divisor;
         
