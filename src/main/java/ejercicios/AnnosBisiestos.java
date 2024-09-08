@@ -1,17 +1,19 @@
+package javaapplication33;
 
-package ejercicios;
-
-import static ejercicios.SetDeTenis.evaluar;
 import java.util.Scanner;
 
 /**
  *
- * @author danielsanchez
+ * @author Daniel Rodriguez
  */
-public class AnnosBisiestos {
-    public static String evaluar(int anno){
+public class JavaApplication33 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static String evaluar(int anno) {
         // TODO: Coloca aquí el código del ejercicio 2: Años bisiestos
-        
+
         if (anno <= 1582) {
             System.out.println("calendario juliano");
             if (anno % 4 == 0) {
@@ -33,8 +35,7 @@ public class AnnosBisiestos {
             }
 
         }
-        
-        
+
         if (anno <= 1582) {
             System.out.println("caso especial aca calculo cuales son los los bisiestos antes de 1582");
             System.out.println("calendario gregoriano ");
@@ -49,7 +50,6 @@ public class AnnosBisiestos {
             }
 
         }
-        
 
         return "";
     }
@@ -64,3 +64,5 @@ public class AnnosBisiestos {
     }
 
 }
+
+
