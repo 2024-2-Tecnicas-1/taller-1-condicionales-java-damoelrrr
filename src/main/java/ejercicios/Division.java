@@ -1,20 +1,20 @@
-
-package ejercicios;
-
 import java.util.Scanner;
 
-public class Division.java {
+public class Division {
     public static String evaluar(int dividendo, int divisor) {
+        
+        if (divisor == 0) {
+            return "Error: No se puede dividir por cero.";
+        }
         
         int cociente = dividendo / divisor;
         int residuo = dividendo % divisor;
         
-        
         String respuesta;
         if (residuo == 0) {
-            respuesta = "La division es exacta.\n";
+            respuesta = "La división es exacta.\n";
         } else {
-            respuesta = "La division no es exacta.\n";
+            respuesta = "La división no es exacta.\n";
         }
 
         respuesta += "Cociente: " + cociente + "\n"
@@ -25,9 +25,9 @@ public class Division.java {
     
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
-        System.out.print("Dividendo:");
+        System.out.print("Dividendo: ");
         int dividendo = lector.nextInt();
-        System.out.print("Divisor:");
+        System.out.print("Divisor: ");
         int divisor = lector.nextInt();
 
         String respuesta = evaluar(dividendo, divisor);
