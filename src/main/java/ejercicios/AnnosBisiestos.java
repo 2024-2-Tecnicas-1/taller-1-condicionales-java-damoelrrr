@@ -1,6 +1,12 @@
+package ejercicios;
+
+
 import java.util.Scanner;
 
-    public static String evaluar(int anno) {
+
+public class LetraONumero {
+    
+        public static String evaluar(int anno) {
         
         if (anno < 1582) {
             if (anno % 4 == 0) {
@@ -31,4 +37,4 @@ import java.util.Scanner;
         String respuesta = evaluar(anno);
         System.out.println(respuesta);
     }
-
+}
