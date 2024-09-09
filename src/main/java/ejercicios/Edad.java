@@ -9,7 +9,7 @@ public class Edad {
         int m = currentDate.getMonthValue();
         int ww = currentDate.getYear();
         int añ =ww - anno;
-        System.out.println(añ);
+        
         
         if (m < mes || (m == mes && day < dia)) {
             añ=añ-1;
